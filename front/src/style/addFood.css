@@ -1,0 +1,63 @@
+.addFood-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .addFood-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .addFood-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addFood-input-div {
+    margin-bottom: 20px;
+  }
+  
+  .addFood-input-label {
+    font-weight: bold;
+  }
+  
+  .addFood-input-field {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .addFood-input-error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .addFood-form-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .addFood-form-btn-submit,
+  .addFood-form-btn-clear {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .addFood-form-btn-submit {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .addFood-form-btn-clear {
+    background-color: #ccc;
+    color: #000;
+  }
+  
