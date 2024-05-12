@@ -17,7 +17,18 @@ const upload = multer({
     storage : storage
 })
 
-
+router.get("/",async(req,res)=>{
+    try{
+        const foods = await foodModel.find({})
+        if(foods){
+            res.status(200).json({status:true,data:foods})
+        }else{
+            res.status(500).json({status:false,message:"No foods avalible"})
+        }
+    }catch(error){
+        res.status(500).json({status:false,message:error.message})
+    }
+})
 router.post("/add",upload.single('image'),async(req,res)=>{
     const { name , type , price , description}  = req.body
     const image = req.file.filename

@@ -1,0 +1,42 @@
+/* styles.css */
+
+.user-home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .user-home-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .user-home-food-div {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .user-home-food-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .user-home-food-image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  .user-home-food-price {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .user-home-food-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
